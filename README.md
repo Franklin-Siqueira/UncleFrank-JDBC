@@ -73,6 +73,7 @@ This sample code is released using the MIT license. For more information see the
 Cloning:
 
 git@github.com:Franklin-Siqueira/UncleFrank-JDBC.git
+
 [repoLicense]:https://github.com/Franklin-Siqueira/UncleFrank-JDBC/blob/master/LICENSE.md
 [repoName]: https://github.com/Franklin-Siqueira/UncleFrank-JDBC/blob/master/LICENSE.md
 [repoNameShort]: https://github.com/Franklin-Siqueira/UncleFrank-JDBC
