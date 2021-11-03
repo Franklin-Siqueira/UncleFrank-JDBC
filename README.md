@@ -63,10 +63,10 @@ IntelliJ-Idea-CE Community-Edition Introduction Java Git GitHub DIO Capgemini Fu
 ---
 #### **License**
 
-[![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](repoLicense)
+[![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)]([repoLicense])
 
 
-This sample code is released using the MIT license. For more information see the [LICENSE]([repoName]) file.
+This sample code is released using the MIT license. For more information see the [LICENSE]([repoLicense]) file.
 
 [Back to Contents](#contents)
 
