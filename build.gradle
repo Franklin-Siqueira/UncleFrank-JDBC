@@ -1,0 +1,27 @@
+plugins {
+    id 'java'
+}
+
+group 'one.innovation.digital'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    // MySql connector
+    // Remarks: in the original project 'compile' is used causing Gradle to crash!
+    // Thanks to https://tomgregory.com/gradle-implementation-vs-compile-dependencies/
+    // for the solution!
+    implementation group: 'mysql', name: 'mysql-connector-java', version: '8.0.25'
+    // runtime "mysql:mysql-connector-java:8.0.17"
+    //
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
+    //
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
+}
+
+test {
+    useJUnitPlatform()
+}
