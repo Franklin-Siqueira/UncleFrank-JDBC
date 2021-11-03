@@ -35,7 +35,7 @@
 #### **About this project**
 <br/>
 
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/Franklin-Siqueira/[repoName]/graphs/commit-activity) [![GitLab last commit](https://badgen.net/github/last-commit/Franklin-Siqueira/[repoName]/)](https://github.com/Franklin-Siqueira/[repoName]/-/commits)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)]([repoNameShort]/graphs/commit-activity) [![GitLab last commit](https://badgen.net/github/last-commit/Franklin-Siqueira/UncleFrank-JDBC/)](https://github.com/Franklin-Siqueira/UncleFrank-JDBC/-/commits)
 
 *_Resumo:_*
 
@@ -75,3 +75,4 @@ Cloning:
 git@github.com:Franklin-Siqueira/UncleFrank-JDBC.git
 
 [repoName]: https://github.com/Franklin-Siqueira/UncleFrank-JDBC/blob/main/LICENSE.md
+[repoNameShort]: https://github.com/Franklin-Siqueira/UncleFrank-JDBC
