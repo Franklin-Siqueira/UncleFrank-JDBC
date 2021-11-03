@@ -63,7 +63,7 @@ IntelliJ-Idea-CE Community-Edition Introduction Java Git GitHub DIO Capgemini Fu
 ---
 #### **License**
 
-[![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)]([repoName])
+[![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](repoLicense)
 
 
 This sample code is released using the MIT license. For more information see the [LICENSE]([repoName]) file.
@@ -73,6 +73,6 @@ This sample code is released using the MIT license. For more information see the
 Cloning:
 
 git@github.com:Franklin-Siqueira/UncleFrank-JDBC.git
-
+[repoLicense]:https://github.com/Franklin-Siqueira/UncleFrank-JDBC/blob/master/LICENSE.md
 [repoName]: https://github.com/Franklin-Siqueira/UncleFrank-JDBC/blob/master/LICENSE.md
 [repoNameShort]: https://github.com/Franklin-Siqueira/UncleFrank-JDBC
