@@ -35,7 +35,7 @@
 #### **About this project**
 <br/>
 
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)]([repoNameShort]/graphs/commit-activity) [![GitLab last commit](https://badgen.net/github/last-commit/Franklin-Siqueira/UncleFrank-JDBC/)](https://github.com/Franklin-Siqueira/UncleFrank-JDBC/-/commits)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/Franklin-Siqueira/UncleFrank-JDBC/graphs/commit-activity) [![GitLab last commit](https://badgen.net/github/last-commit/Franklin-Siqueira/UncleFrank-JDBC/)](https://github.com/Franklin-Siqueira/UncleFrank-JDBC/-/commits)
 
 *_Resumo:_*
 
@@ -66,7 +66,7 @@ IntelliJ-Idea-CE Community-Edition Introduction Java Git GitHub DIO Capgemini Fu
 [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/Franklin-Siqueira/UncleFrank-JDBC/blob/master/LICENSE.md)
 
 
-This sample code is released using the MIT license. For more information see the [LICENSE]([repoLicense]) file.
+This sample code is released using the MIT license. For more information see the [LICENSE](https://github.com/Franklin-Siqueira/UncleFrank-JDBC/blob/master/LICENSE.md) file.
 
 [Back to Contents](#contents)
 
