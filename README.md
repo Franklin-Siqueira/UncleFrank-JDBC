@@ -74,5 +74,5 @@ Cloning:
 
 git@github.com:Franklin-Siqueira/UncleFrank-JDBC.git
 
-[repoName]: https://github.com/Franklin-Siqueira/UncleFrank-JDBC/blob/main/LICENSE.md
+[repoName]: https://github.com/Franklin-Siqueira/UncleFrank-JDBC/blob/master/LICENSE.md
 [repoNameShort]: https://github.com/Franklin-Siqueira/UncleFrank-JDBC
