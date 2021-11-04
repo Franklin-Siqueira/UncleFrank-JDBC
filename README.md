@@ -77,7 +77,8 @@ Antes de compilar e rodar os arquivos dos pacotes contidos em [controllers](http
 #### Persistence Settings XML File
 
 Before compiling and running any files at [controllers](https://github.com/Franklin-Siqueira/UncleFrank-JDBC/tree/master/src/main/java/controllers),
-
+create a new directory /META-INF at the [resources](https://github.com/Franklin-Siqueira/UncleFrank-JDBC/tree/master/src/main/resources) package and
+add a new file **persistence.xml** with its contents copied from the previous link.
 
 [Back to Contents](#contents)
 
