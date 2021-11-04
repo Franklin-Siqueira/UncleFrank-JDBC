@@ -66,7 +66,7 @@ IntelliJ-Idea-CE Community-Edition Introduction Java Git GitHub DIO Capgemini Fu
 [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](../master/LICENSE.md)
 
 
-This sample code is released using the MIT license. For more information see the [LICENSE](https://github.com/Franklin-Siqueira/UncleFrank-JDBC/blob/master/LICENSE.md) file.
+This sample code is released using the MIT license. For more information see the [LICENSE](../master/LICENSE.md) file.
 
 [Back to Contents](#contents)
 

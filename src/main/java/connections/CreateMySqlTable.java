@@ -10,10 +10,10 @@ public class CreateMySqlTable {
              // Prepare statement with statement variable 'sql'
              Statement stmt = conn.createStatement();) {
             // Prepare SQL statement
-            String sql = "CREATE TABLE course " +
+            String sql = "CREATE TABLE StateX " +
                     " ( id INT(64) AUTO_INCREMENT, " +
                     " name VARCHAR(80) NOT NULL, " +
-                    " duration_hours INT(64) NOT NULL, " +
+                    " symbol CHAR(2) NOT NULL, " +
                     " PRIMARY KEY (`id`))";
             //Execute statement (with 'executeUpdate'), create table.
             stmt.executeUpdate(sql);

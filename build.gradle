@@ -10,16 +10,34 @@ repositories {
 }
 
 dependencies {
+    // Annotations from the instructor (Java Persistance API - JPA)
+    // Notar que essa API nao faz o programa rodar, apenas valida as annotations
+    // (pois sao so as especificacoes)
+    // https://mvnrepository.com/artifact/javax.persistence/javax.persistence-api
+    // implementation group: 'javax.persistence', name: 'javax.persistence-api', version: '2.2'
     // MySql connector
-    // Remarks: in the original project 'compile' is used causing Gradle to crash!
-    // Thanks to https://tomgregory.com/gradle-implementation-vs-compile-dependencies/
-    // for the solution!
     implementation group: 'mysql', name: 'mysql-connector-java', version: '8.0.25'
     // runtime "mysql:mysql-connector-java:8.0.17"
+    //
+    // Implementacao Hibernate
+    // https://mvnrepository.com/artifact/org.hibernate/hibernate-core
+    implementation group: 'org.hibernate', name: 'hibernate-core', version: '5.4.12.Final'
+
+    // Implementacao EclipseLink
+    // https://mvnrepository.com/artifact/org.eclipse.persistence/eclipselink
+    implementation group: 'org.eclipse.persistence', name: 'eclipselink', version: '2.7.6'
+
+    // Automatizador de criacao de Metamodels
+    // https://mvnrepository.com/artifact/org.hibernate/hibernate-jpamodelgen
+    annotationProcessor('org.hibernate:hibernate-jpamodelgen:5.4.13.Final')
     //
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
     //
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
+    // Remarks: in the original project instead of 'implementation',
+    // 'compile' is used causing Gradle to crash!
+    // Thanks to https://tomgregory.com/gradle-implementation-vs-compile-dependencies/
+    // for the solution!
 }
 
 test {

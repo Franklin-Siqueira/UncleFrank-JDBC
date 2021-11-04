@@ -15,12 +15,14 @@ public class MySqlConnectionFactory {
 
     public static Connection getConnection() {
 
-        // OBS: NÃO ESQUECER DE BAIXAR O DRIVER PARA O BANCO DE DADOS QUE IRÁ UTILIZAR! (Como demonstrado na parte 1 do curso)
+        // OBS: NÃO ESQUECER DE BAIXAR O DRIVER PARA O BANCO DE DADOS
+        // QUE IRÁ UTILIZAR! (Como demonstrado na parte 1 do curso)
 
         // 1 - Declarar objeto conexão (irá receber uma conexão após executar os passos abaixo)
         Connection connection = null;
 
-        // 2 - Carregar arquivo de propriedades para pegar parâmetros necessários para se comunicar com o banco de dados
+        // 2 - Carregar arquivo de propriedades para pegar parâmetros necessários
+        // para se comunicar com o banco de dados
         try (InputStream input = MySqlConnectionFactory.class.getClassLoader().getResourceAsStream("connection.properties")) {
 
             // 3 - Definir parâmetros para se conectar ao banco de dados MySQL.
