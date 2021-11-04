@@ -61,6 +61,7 @@ IntelliJ-Idea-CE Community-Edition JDBC JPA MySQL Introduction Java Git GitHub D
 - Java Virtual Machine (JVM);
 - Gradle 5.3.1;
 - MySQL
+- MySQL Workbench
 - IntelliJ Idea 2021.2.2 (Community Edition);
 
 [Back to Contents](#contents)
