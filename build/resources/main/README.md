@@ -7,6 +7,8 @@
              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
              xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_2.xsd"
              version="2.2">
+    
+    <!-- ==========================================================================================================================  -->
 
     <!-- Persistence unit / Unidade de persistência da parte 1 do curso (Somente JPA)-->
     <!-- Course's Part 1 persistence unit (JPA only) -->
@@ -93,6 +95,8 @@
 
     </persistence-unit>
 
+    <!-- ==========================================================================================================================  -->
+
     <!-- Unidade de persistência da parte 3 do curso (com implementação EclipseLink) -->
     <persistence-unit name="MixedZ">
 
@@ -126,10 +130,10 @@
             (os parâmetros só são reconhecidos se estiver usando a implementação do Hibernate)
             -->
             <!-- Hibernate settings (only recognizable while using Hibernate implementation) -->
-<!--            <property name="hibernate.dialect" value="org.hibernate.dialect.MySQL8Dialect" />-->
-<!--            <property name="hibernate.show_sql" value="true" />-->
-<!--            <property name="hibernate.format_sql" value="true" />-->
-<!--            <property name="hibernate.hbm2ddl.auto" value="create" />-->
+            <!--            <property name="hibernate.dialect" value="org.hibernate.dialect.MySQL8Dialect" />-->
+            <!--            <property name="hibernate.show_sql" value="true" />-->
+            <!--            <property name="hibernate.format_sql" value="true" />-->
+            <!--            <property name="hibernate.hbm2ddl.auto" value="create" />-->
             <!-- ABOVE-> Possible values for hibernate.hbm2ddl.auto are:
             validate: validate data and insert new records
             update:
@@ -148,5 +152,7 @@
 
     </persistence-unit>
 </persistence>
+
+
 
 ```

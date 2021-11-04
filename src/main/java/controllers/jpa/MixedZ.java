@@ -26,18 +26,15 @@ public class MixedZ {
         entityManager.persist(new StudentX("Joao", 20, estadoParaAdicionar));
         entityManager.persist(new StudentX("Pedro", 30, estadoParaAdicionar));
         entityManager.getTransaction().commit();
-
+        // =============================================================================================================
         // 2 - Vamos utilizar o método do EntityManager find(), SQL nativo, JPQL e
         // JPA Criteria API para realizar uma consulta que retornar o mesmo valor
         // equivalente aos seguintes SQL:
-        //
         // SELECT * FROM StudentX WHERE id = 1 (Equivalente ao método find do entityManager na parte 2.2)
         // SELECT * FROM StudentX WHERE name = 'Daniel' (Sera o equivalente para as outras consultas nas partes 2.3 - 2.4 - 2.5)
 
         // 2.1 O parametro de busca que será utilizado nas proximas consultas
         String nome = "Daniel";
-
-        // =============================================================================================================
 
         // 2.2 - Utilizando o método find do entityManager
         // Trazendo somente 1 resultado
@@ -50,10 +47,8 @@ public class MixedZ {
         System.out.println("Consulta alunoEntityManager: " + alunoEntityManager);
 
         // =============================================================================================================
-
         // 2.3 - SQL nativo
-
-//        // Trazendo somente 1 resultado
+        // Trazendo somente 1 resultado
         String sql = "SELECT * FROM StudentX WHERE name = :nome ";
         StudentX alunoSQL = (StudentX) entityManager
                 .createNativeQuery(sql, StudentX.class)
@@ -65,8 +60,8 @@ public class MixedZ {
         List<StudentX> alunoSQLList = entityManager
                 .createNativeQuery(sqlList, StudentX.class)
                 .getResultList();
-//
-//        // Resultados das consultas acima
+
+        // Resultados das consultas acima
         System.out.println("Consulta alunoSQL: " + alunoSQL);
         alunoSQLList.forEach(StudentX -> System.out.println("Consulta alunoSQLList: " + StudentX));
 
