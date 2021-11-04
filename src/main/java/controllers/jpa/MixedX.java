@@ -15,9 +15,12 @@ public class MixedX {
         // Porém se estiver com a biblioteca de algum framework com
         // implementação JPA (Hibernate ou EclipseLink), o JPA irá automaticamente utilizá-lo.
 
+        // This file is EXPECTED to CAUSE an ERROR, due to the ABSENCE of a JPA implementation
+        // settings at the resources/META-INF/persistence.xml file
+
         // O ideal é que nessa parte (Parte 1) o código
         // EXECUTE COM ERROR. Ao tentar executar, irá mostrar um error, afirmando que não
-        // foi encontradada nenhuma implementação do JPA,
+        // foi encontrada nenhuma implementação do JPA,
         // pois aqui não deveria ter nenhuma implementação JPA sendo utilizada,
         // apenas o JPA puro para demonstrar que através dele é possivel definir a
         // estrutura do codigo e depois escolher
