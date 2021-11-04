@@ -15,6 +15,8 @@
 
 [License](#license)
 
+[Clone Project](#cloning)
+
 
 ---
 #### **About me**
@@ -57,7 +59,7 @@ IntelliJ-Idea-CE Community-Edition JDBC JPA MySQL Introduction Java Git GitHub D
 #### Requisitos de Ambiente
 
 - GitHub;
-- Java Development Kit (JDK), versão 11;
+- Java Development Kit (JDK), v.11;
 - Java Virtual Machine (JVM);
 - Gradle 5.3.1;
 - MySQL
@@ -72,6 +74,11 @@ IntelliJ-Idea-CE Community-Edition JDBC JPA MySQL Introduction Java Git GitHub D
 Antes de compilar e rodar os arquivos dos pacotes contidos em [controllers](https://github.com/Franklin-Siqueira/UncleFrank-JDBC/tree/master/src/main/java/controllers),
 é necessário criar o arquivo persistence.xml, dentro do pacote resources, pasta META-INF. O conteúdo deste arquivo deverá ser como o código apresentado no pacote [resources](https://github.com/Franklin-Siqueira/UncleFrank-JDBC/tree/master/src/main/resources).
 
+#### Persistence Settings XML File
+
+Before compiling and running any files at [controllers](https://github.com/Franklin-Siqueira/UncleFrank-JDBC/tree/master/src/main/java/controllers),
+
+
 [Back to Contents](#contents)
 
 ---
@@ -84,9 +91,14 @@ This sample code is released using the MIT license. For more information see the
 
 [Back to Contents](#contents)
 
-Cloning:
+---
+#### Cloning:
 
-git@github.com:Franklin-Siqueira/UncleFrank-JDBC.git
+```shell
+git clone git@github.com:Franklin-Siqueira/UncleFrank-JDBC.git
+```
+
+[Back to Contents](#contents)
 
 [repoLicense]:https://github.com/Franklin-Siqueira/UncleFrank-JDBC/blob/master/LICENSE.md
 [repoName]: https://github.com/Franklin-Siqueira/UncleFrank-JDBC/blob/master/LICENSE.md
