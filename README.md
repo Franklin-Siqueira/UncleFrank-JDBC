@@ -2,6 +2,9 @@
 
 ---
 
+(em desenvolvimento | developing)
+
+
 #### Contents
 
 [About me](#about-me)
@@ -47,7 +50,7 @@ This repository contains the files created in the Trabalhando com Banco de Dados
 
 *_Keywords:_*
 
-IntelliJ-Idea-CE Community-Edition Introduction Java Git GitHub DIO Capgemini Fullstack Angular Course
+IntelliJ-Idea-CE Community-Edition JDBC JPA MySQL Introduction Java Git GitHub DIO Capgemini Fullstack Angular Course
 
 [Back to Contents](#contents)
 
@@ -56,7 +59,17 @@ IntelliJ-Idea-CE Community-Edition Introduction Java Git GitHub DIO Capgemini Fu
 - GitHub;
 - Java Development Kit (JDK), versão 11;
 - Java Virtual Machine (JVM);
+- Gradle 5.3.1;
+- MySQL
 - IntelliJ Idea 2021.2.2 (Community Edition);
+
+[Back to Contents](#contents)
+
+---
+#### Arquivo de Configuração
+
+Antes de compilar e rodar os arquivos dos pacotes contidos em [controllers](https://github.com/Franklin-Siqueira/UncleFrank-JDBC/tree/master/src/main/java/controllers),
+é necessário criar o arquivo persistence.xml, dentro do pacote resources, pasta META-INF. O conteúdo deste arquivo deverá ser como o código apresentado no pacote [resources](https://github.com/Franklin-Siqueira/UncleFrank-JDBC/tree/master/src/main/resources).
 
 [Back to Contents](#contents)
 
